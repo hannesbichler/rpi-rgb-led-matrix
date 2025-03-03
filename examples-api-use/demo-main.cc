@@ -1096,7 +1096,8 @@ public:
       barFreqs_[i] = 1<<(rand()%3);
     }
 
-	DrawLine(canvas(), 0, 0,      100, 100,      Color(255, 255, 0));
+	// create horizontal segment
+	DrawLine(canvas(), 0, 0,      0, 104,      Color(255, 255, 255));
     // Start the loop
     while (!interrupt_received) {
 		
