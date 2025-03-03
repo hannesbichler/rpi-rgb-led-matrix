@@ -1097,7 +1097,7 @@ public:
     }
 
 	// create horizontal segment
-	DrawLine(canvas(), 0, 0,      2, 104,      Color(255, 255, 255));
+	DrawLine(canvas(), 0, 0,      1, 104,      Color(255, 255, 255));
     // Start the loop
     while (!interrupt_received) {
 		
