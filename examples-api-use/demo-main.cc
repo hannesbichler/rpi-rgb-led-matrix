@@ -1060,12 +1060,12 @@ static int usage(const char *progname) {
 // Contributed by: Vliedel
 class SevenSegmentcounter : public DemoRunner {
 public:
-  VolumeBars(Canvas *m, int delay_ms=50, int numBars=8)
+  SevenSegmentcounter(Canvas *m, int delay_ms=50, int numBars=8)
     : DemoRunner(m), delay_ms_(delay_ms),
       numBars_(numBars), t_(0) {
   }
 
-  ~VolumeBars() {
+  ~SevenSegmentcounter() {
     delete [] barHeights_;
     delete [] barFreqs_;
     delete [] barMeans_;
